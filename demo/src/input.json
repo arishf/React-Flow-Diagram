@@ -1,0 +1,40 @@
+{"object":
+{
+	"source" : {
+		"sourceType" : "csv" ,
+		"dataFields" : [
+					{
+					  "fieldName" : "BAN" ,
+					  "dataType" : "String",
+					  "type" : "Fixed" ,
+					 "fieldSize" : "4"
+					 },
+					 {
+					  "fieldName" : "MAN" ,
+					  "dataType" : "String",
+					  "type" : "Fixed" ,
+					 "fieldSize" : "4"
+					 }
+			]
+	
+	},
+	"destination" : {
+		"destinationType":"database",
+		"dataFields" : [
+					{
+					  "fieldName" : "BAN" ,
+					  "dataType" : "String",
+					  "type" : "Fixed" ,
+					 "fieldSize" : "4"
+					 },
+					 {
+					  "fieldName" : "MAN" ,
+					  "dataType" : "String",
+					  "type" : "Fixed" ,
+					 "fieldSize" : "4"
+					 }
+			]
+	
+	}
+}
+}
